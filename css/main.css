@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box
 }
+
+main {
+    padding: 1rem;
+}
+
+section {
+    border-bottom: 1px solid gray;
+}
+
+.about {
+    margin-top: 2rem;
+}
+
+.name {
+    text-align: center;
+}
+
+.name__last {
+    display: block;
+}
+
+.name__small {
+    font-size: 1.2rem;
+}
