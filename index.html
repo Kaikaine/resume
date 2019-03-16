@@ -11,7 +11,12 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
   </head>
   <body>
@@ -34,7 +39,9 @@
           <a class="nav-item nav-link" href="#">Projects</a>
           <a class="nav-item nav-link" href="#">Skills</a>
           <a class="nav-item nav-link" href="#">Interests</a>
-          <a class="nav-item nav-link" href="#">PDF</a>
+          <a class="nav-item nav-link" href="#"
+            >PDF <i class="fas fa-file-download"></i
+          ></a>
         </div>
       </div>
     </nav>
@@ -42,7 +49,7 @@
     <main>
       <section class="about">
         <h1 class="name">
-          KAIRI <span class="name__last">BRECKENRIDGE</span> 
+          KAIRI <span class="name__last">BRECKENRIDGE</span>
           <span class="name__small">
             Chicago, IL | You can reach me at: kairijb@gmail.com
           </span>
@@ -57,42 +64,119 @@
       </section>
 
       <section class="projects">
-          <h3 class='heading'>
-              Projects <i class="fab fa-github"></i>
-          </h3>
+        <h3 class="heading">Projects <i class="fab fa-github"></i></h3>
 
-          <div class='projects__list'>
-                <figure>
-                    <figcaption><a href="https://powerful-everglades-47628.herokuapp.com/" class="projects__list-link">Responsive Website: a responsive website for a fake company</a></figcaption>
-                    <img src="img/Responsive.png" alt="Trulli" style="width:100%">
-                </figure>
+        <div class="projects__list">
+          <figure>
+            <figcaption>
+              <a
+                href="https://powerful-everglades-47628.herokuapp.com/"
+                class="projects__list-link"
+                >Responsive Website</a
+              >
+            </figcaption>
+            <img src="img/Responsive.png" alt="Responsive" style="width:100%" />
+          </figure>
 
-                <ul class="list-group">
-                    <li class="list-group-item">HTML</li>
-                    <li class="list-group-item">CSS</li>
-                    <li class="list-group-item">Javascript</li>
-                    <li class="list-group-item">Bootstrap</li>
-                    <li class="list-group-item">Deployment: Heroku</li>
-                </ul>
-          </div>
+          <ul class="list-group">
+            <li class="list-group-item">HTML</li>
+            <li class="list-group-item">CSS</li>
+            <li class="list-group-item">Javascript</li>
+            <li class="list-group-item">Bootstrap</li>
+            <li class="list-group-item">Responsive: Yes</li>
+            <li class="list-group-item">Deployment: Heroku</li>
+          </ul>
+        </div>
+
+        <div class="projects__list">
+          <figure>
+            <figcaption>
+              <a
+                href="http://ethereal-scene.surge.sh/"
+                class="projects__list-link"
+                >The Venue</a
+              >
+            </figcaption>
+            <img src="img/Ariana.png" alt="Ariana" style="width:100%" />
+          </figure>
+
+          <ul class="list-group">
+            <li class="list-group-item">React</li>
+            <li class="list-group-item">CSS</li>
+            <li class="list-group-item">
+              Responsive: No (View on Desktop for best experience)
+            </li>
+            <li class="list-group-item">Deployment: Surge</li>
+          </ul>
+        </div>
+
+        <div class="projects__list">
+          <figure>
+            <figcaption>
+              <a
+                href="https://two-man-8d0dd.firebaseapp.com/"
+                class="projects__list-link"
+                >Two Man City</a
+              >
+            </figcaption>
+            <img src="img/Two-man.png" alt="Two-man" style="width:100%" />
+          </figure>
+
+          <ul class="list-group">
+            <li class="list-group-item">React</li>
+            <li class="list-group-item">CSS</li>
+            <li class="list-group-item">Firebase</li>
+            <li class="list-group-item">
+              Responsive: No (View on Desktop for best experience)
+            </li>
+            <li class="list-group-item">Deployment: Firebase</li>
+          </ul>
+        </div>
+
+        <div class="projects__list">
+          <figure>
+            <figcaption>
+              <a
+                href="https://limitless-refuge-65213.herokuapp.com/"
+                class="projects__list-link"
+                >Two Man City</a
+              >
+            </figcaption>
+            <img
+              src="img/Devconnector.png"
+              alt="Devoconnector"
+              style="width:100%"
+            />
+          </figure>
+
+          <ul class="list-group">
+            <li class="list-group-item">React</li>
+            <li class="list-group-item">Redux</li>
+            <li class="list-group-item">CSS</li>
+            <li class="list-group-item">Bootstrap</li>
+            <li class="list-group-item">MongoDB</li>
+            <li class="list-group-item">Nodejs</li>
+            <li class="list-group-item">Expressjs</li>
+            <li class="list-group-item">
+              Responsive: Yes
+            </li>
+            <li class="list-group-item">Deployment: Heroku</li>
+          </ul>
+        </div>
+      </section>
+      <!-- 
+      <section class="education">
+        <h3 class="heading">Education <i class="fas fa-graduation-cap"></i></h3>
+      </section> -->
+
+      <section class="education">
+        <h3 class="heading">Skills <i class="fas fa-code"></i></h3>
       </section>
 
       <section class="education">
-            <h3 class='heading'>
-                    Education <i class="fas fa-graduation-cap"></i>
-                </h3>
-      </section>
-
-      <section class="education">
-            <h3 class='heading'>
-                Skills <i class="fas fa-code"></i>
-            </h3>
-      </section>
-
-      <section class="education">
-            <h3 class='heading'>
-                Interests
-            </h3>
+        <h3 class="heading">
+          Interests
+        </h3>
       </section>
     </main>
 
