@@ -2,8 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Markazi Text", serif sans-serif;
+  font-family: "Markazi Text", serif;
   letter-spacing: 0.05rem;
+  font-size: 1.2rem;
 }
 
 body {
@@ -121,20 +122,34 @@ footer {
 
   .sidebar__list-items {
     position: relative;
-    top: 45vh;
-    left: 10%;
+    top: 20vh;
+    /* padding-left: 10%; */
   }
 
   .sidebar__list-item {
     width: 80%;
     list-style-type: none;
     text-align: center;
+    margin: auto;
     margin-bottom: 1.5rem;
+  }
+
+  .sidebar__list-pic {
+    background-color: black;
+    width: 14rem;
+    height: 14rem;
+    border-radius: 7rem;
+    background-image: url("../img/image1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: auto;
+    margin-bottom: 1rem;
   }
 
   .sidebar__list-items a {
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
   footer {
