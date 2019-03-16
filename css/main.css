@@ -1,29 +1,68 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: black;
 }
 
 main {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 section {
-    border-bottom: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin-bottom: 1rem;
 }
 
 .about {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .name {
-    text-align: center;
+  text-align: center;
 }
 
 .name__last {
-    display: block;
+  display: block;
 }
 
 .name__small {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
+}
+
+/* PROJECTS */
+
+figcaption {
+  margin-top: 2rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+/* SKILLS */
+
+.skills__list {
+  width: 100%;
+}
+
+.skills__list-item {
+  display: inline-block;
+  width: 19%;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.skills__list-item img {
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.skills__list-item img:hover {
+  transform: translateY(-1rem);
 }
