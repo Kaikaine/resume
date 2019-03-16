@@ -17,6 +17,10 @@
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lilita+One|Markazi+Text"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
   </head>
   <body>
@@ -35,10 +39,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link" href="#">About</a>
-          <a class="nav-item nav-link" href="#">Projects</a>
-          <a class="nav-item nav-link" href="#">Skills</a>
-          <a class="nav-item nav-link" href="#">Interests</a>
+          <a class="nav-item nav-link" href="#about">About</a>
+          <a class="nav-item nav-link" href="#projects">Projects</a>
+          <a class="nav-item nav-link" href="#skills">Skills</a>
+          <a class="nav-item nav-link" href="#interests">Interests</a>
           <a class="nav-item nav-link" href="#"
             >PDF <i class="fas fa-file-download"></i
           ></a>
@@ -48,10 +52,11 @@
 
     <main>
       <section class="about">
+        <a name="about"></a>
         <h1 class="name">
           KAIRI <span class="name__last">BRECKENRIDGE</span>
           <span class="name__small">
-            Chicago, IL | You can reach me at: kairijb@gmail.com
+            Chicago, IL | You can reach me at: kairidev@gmail.com
           </span>
         </h1>
 
@@ -64,6 +69,7 @@
       </section>
 
       <section class="projects">
+        <a name="projects"></a>
         <h3 class="heading">Projects <i class="fab fa-github"></i></h3>
 
         <div class="projects__list">
@@ -180,6 +186,7 @@
       </section>
 
       <section class="skills">
+        <a name="skills"></a>
         <h3 class="heading">Skills <i class="fas fa-code"></i></h3>
         <div class="skills__list">
           <div class="skills__list-item">
@@ -192,16 +199,22 @@
             <img src="./img/css.png" alt="css" />
           </div>
           <div class="skills__list-item">
+            <img src="./img/bootstrap.png" alt="bootstrap" />
+          </div>
+          <div class="skills__list-item">
+            <img src="./img/material.svg" alt="bootstrap" />
+          </div>
+          <div class="skills__list-item">
             <img src="./img/react.png" alt="react" />
           </div>
           <div class="skills__list-item">
-            <img src="./img/nodejs.png" alt="nodejs" />
+            <img src="./img/redux.png" alt="redux" />
           </div>
           <div class="skills__list-item">
             <img src="./img/git.png" alt="git" />
           </div>
           <div class="skills__list-item">
-            <img src="./img/bootstrap.png" alt="bootstrap" />
+            <img src="./img/nodejs.png" alt="nodejs" />
           </div>
           <div class="skills__list-item">
             <img src="img/express.png" alt="express" />
@@ -209,9 +222,7 @@
           <div class="skills__list-item">
             <img src="./img/firebase.svg" alt="firebase" />
           </div>
-          <div class="skills__list-item">
-            <img src="./img/redux.png" alt="redux" />
-          </div>
+
           <div class="skills__list-item">
             <img src="./img/mongodb.png" alt="mongodb" />
           </div>
@@ -219,10 +230,35 @@
       </section>
 
       <section class="interests">
+        <a name="interests"></a>
         <h3 class="heading">
           Interests
         </h3>
+
+        <div class="interests__text">
+          <p class="interests__text-p">
+            After a lot of back and forth on deciding what I wanted to do in
+            tech, I came to the conclusion that I wanted to be a full-stack
+            developer that mainly works with React because it's just really fun
+            to use. Like I never in a million years would think I'd find this
+            fun yet here we are. Outside of just working with React, I think
+            learning more about UX would be really interesting as well.
+          </p>
+
+          <p class="interests__text-p">
+            Outside of tech I'm just your homebody who listens to copious
+            amounts of Beyonce, Smino, Ravyn Lenae, this list could go on for
+            quite a bit so let's just end it here. I also play videogames. My
+            current favorites are Apex and League of Legends and on those blue
+            moons where I do leave the house it's usually to go to a concert
+            with friends.
+          </p>
+        </div>
       </section>
+
+      <footer>
+        Kairi Breckenridge 2019 All Rights Reserved
+      </footer>
     </main>
 
     <script

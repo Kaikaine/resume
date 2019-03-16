@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Markazi Text", serif sans-serif;
+  letter-spacing: 0.05rem;
+}
+
+body {
+  background-color: rgb(245, 243, 243);
 }
 
 a {
@@ -15,6 +21,10 @@ a:visited {
 
 main {
   padding: 1rem;
+}
+
+.navbar-brand {
+  text-decoration: none;
 }
 
 section {
@@ -46,6 +56,10 @@ figcaption {
   margin-bottom: 0.5rem;
 }
 
+figcaption a {
+  font-size: 2rem;
+}
+
 /* SKILLS */
 
 .skills__list {
@@ -55,8 +69,9 @@ figcaption {
 .skills__list-item {
   display: inline-block;
   width: 19%;
-  margin-left: 1rem;
-  margin-top: 1rem;
+  margin-left: 4%;
+  margin-top: 4%;
+  margin-bottom: 1%;
 }
 .skills__list-item img {
   width: 100%;
@@ -65,4 +80,10 @@ figcaption {
 
 .skills__list-item img:hover {
   transform: translateY(-1rem);
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 0.8rem;
 }
