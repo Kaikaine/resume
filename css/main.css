@@ -88,10 +88,6 @@ figcaption a {
   transform: translateY(-1rem);
 }
 
-.skills__list-item img:not(.skills__list-item img:hover) {
-  transform: scale(-5, -5);
-}
-
 /* FOOTER */
 
 footer {
